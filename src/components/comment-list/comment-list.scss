@@ -1,0 +1,98 @@
+.comment-section {
+  display: flex;
+
+  .comment-list {
+    width: 70%;
+
+    .list-item-wrapper {
+      li {
+        width: 100% !important;
+      }
+
+      .primary {
+        display: flex;
+        align-items: stretch;
+        margin-bottom: 0.5rem;
+
+        .author-name {
+          margin-right: 1rem;
+        }
+
+        .comment-date {
+          font-size: 0.8rem;
+          line-height: 2;
+          color: lightgray;
+        }
+
+        .sentiment {
+          margin-left: auto;
+        }
+      }
+
+      .detail-section {
+        width: 100%;
+        margin-bottom: 1rem;
+
+        .review-content {
+          color: whitesmoke;
+          margin-bottom: 0.5rem;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          font-size: 0.8rem;
+        }
+
+        .like-section {
+          display: flex;
+          align-items: flex-end;
+
+          .like-count {
+            margin-left: 0.5rem;
+            color: whitesmoke;
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+  }
+
+  .overall {
+    font-size: 0.9rem;
+    margin-left: auto;
+
+    .total {
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+
+    .description {
+      opacity: 0.5;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .detail {
+      .detail-item {
+        display: grid;
+        grid-template-columns: 1.5fr 4fr 1fr;
+        width: 100%;
+        grid-gap: 10px;
+
+        .label {
+          opacity: 0.8;
+        }
+
+        .MuiLinearProgress-root {
+          width: 100%;
+          align-self: center;
+        }
+
+        .count {
+          opacity: 0.8;
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}
