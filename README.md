@@ -167,7 +167,7 @@ La plataforma permite:
 # 📂 Estructura del proyecto
 
 ```bash
-react-movie/
+PlataformaWebPeliculasBackend/
 │
 ├── public/                  # Recursos públicos
 ├── src/
@@ -201,7 +201,7 @@ react-movie/
 ## 1️⃣ Clonar repositorio
 
 ```bash
-git clone https://github.com/isairey/react-movie.git
+git clone https://github.com/isairey/PlataformaWebPeliculasBackend.git
 ```
 
 ---
@@ -209,7 +209,7 @@ git clone https://github.com/isairey/react-movie.git
 ## 2️⃣ Entrar al proyecto
 
 ```bash
-cd react-movie
+cd PlataformaWebPeliculasBackend
 ```
 
 ---
@@ -251,15 +251,8 @@ La aplicación utiliza:
 
 ---
 
-# 🎥 Tutorial del proyecto
 
-## 📺 Video tutorial
 
-```bash
-https://youtu.be/ntYXj9W1Ez8
-```
-
----
 
 # 🌐 Recursos utilizados
 
@@ -388,7 +381,7 @@ git push origin feature/nueva-funcionalidad
 
 <div align="center">
 
-## Isai Reyes — Frontend Developer
+## Isai Reyes — Frontend y Backend Developer
 
 Desarrollador apasionado por aplicaciones web modernas, interfaces dinámicas y experiencias cinematográficas 🚀
 
